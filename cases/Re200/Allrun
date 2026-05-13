@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd "${0%/*}" || exit 1
+
+echo "Cleaning case..."
+rm -rf constant/polyMesh
+rm -rf [1-9]* postProcessing
+
+echo "Running blockMesh..."
+blockMesh
+
+echo "Running snappyHexMesh..."
+snappyHexMesh -overwrite
+
+echo "Checking mesh..."
+checkMesh
+
+echo "Running solver..."
+simpleFoam
+
+echo "Done!"

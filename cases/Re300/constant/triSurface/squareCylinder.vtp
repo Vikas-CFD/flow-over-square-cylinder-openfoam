@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<!-- squareCylinder -->
+<VTKFile type='PolyData' version='0.1' byte_order='LittleEndian' header_type='UInt64'>
+  <PolyData>
+    <Piece NumberOfPoints='8' NumberOfPolys='12'>
+      <Points>
+        <DataArray type='Float32' Name='Points' NumberOfComponents='3' format='binary'>
+YAAAAAAAAAAAAEA/AACAvgAAAAAAAKA/AACAvgAAAAAAAKA/AACAPgAAAAAAAEA/AACAPgAAAAAAAEA/AACAvgrXIzwAAKA/AACAPgrXIzwAAKA/AACAvgrXIzwAAEA/AACAPgrXIzw=
+        </DataArray>
+      </Points>
+      <Polys>
+        <DataArray type='Int32' Name='connectivity' format='binary'>
+QAIAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAEAAAABwAAAAUAAAAAAAAABgAAAAEAAAAAAAAABAAAAAYAAAADAAAAAgAAAAUAAAADAAAABQAAAAcAAAAAAAAABwAAAAMAAAAAAAAABAAAAAcAAAABAAAAAgAAAAUAAAABAAAABQAAAAYAAAA=
+        </DataArray>
+        <DataArray type='Int32' Name='offsets' format='binary'>
+MAAAAAAAAAADAAAABgAAAAkAAAAMAAAADwAAABIAAAAVAAAAGAAAABsAAAAeAAAAIQAAACQAAAA=
+        </DataArray>
+      </Polys>
+      <CellData>
+        <DataArray type='Int32' Name='normal' format='binary'>
+MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAgAAAAIAAAA=
+        </DataArray>
+      </CellData>
+    </Piece>
+  </PolyData>
+</VTKFile>
