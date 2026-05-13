@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd cases/Re100
+blockMesh
+simpleFoam
+
+cd ../Re200
+blockMesh
+simpleFoam
+
+cd ../Re300
+blockMesh
+simpleFoam
