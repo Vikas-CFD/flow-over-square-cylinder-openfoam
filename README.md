@@ -3,20 +3,19 @@
 ## Overview
 This project investigates incompressible flow over a square cylinder using OpenFOAM.
 
-The simulations were performed for:
+Simulations were performed for:
 - Re = 100
 - Re = 200
 - Re = 300
 
-The objective was to study wake formation, flow separation, and drag/lift behavior for different Reynolds numbers.
+The objective was to study wake formation and flow separation behavior for different Reynolds numbers.
 
 ---
 
 ## Objectives
 - Simulate flow over a square cylinder
-- Analyze wake development
-- Study flow separation behavior
-- Compute drag and lift coefficients
+- Analyze wake formation
+- Study drag and lift characteristics
 - Perform mesh independence study
 
 ---
@@ -44,17 +43,16 @@ README.md
 
 ## Methodology
 - Geometry generated using blockMesh
-- Simulations performed using steady-state solver
 - Air considered as working fluid
 - Multiple Reynolds number studies conducted
 
 ---
 
 ## Key Learnings
-- Effect of Reynolds number on wake structures
-- Importance of mesh quality
-- Boundary condition implementation in OpenFOAM
-- CFD post-processing using ParaView
+- OpenFOAM workflow
+- Mesh generation using blockMesh
+- Boundary condition implementation
+- Reynolds number effect on flow behavior
 
 ---
 
@@ -67,4 +65,4 @@ README.md
 
 ## Author
 Vikas CFD
-M.Tech Thermal & Fluid Engineering# flow-over-square-cylinder-openfoam
+M.Tech Thermal & Fluid Engineering
